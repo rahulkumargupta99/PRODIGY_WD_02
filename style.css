@@ -1,0 +1,143 @@
+Style for stopwatch container
+.stopwatch {
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+/* Style for stopwatch display */
+#display {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Style for buttons */
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Style for start/stop button */
+#startStop {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+/* Hover effect for start/stop button */
+#startStop:hover {
+  background-color: #45a049;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style for reset button */
+#reset {
+  background-color: #f44336;
+  color: #fff;
+}
+
+/* Hover effect for reset button */
+#reset:hover {
+  background-color: #d32f2f;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style for lap button */
+#lap {
+  background-color: #2196f3;
+  color: #efe1e1;
+}
+
+/* Hover effect for lap button */
+#lap:hover {
+  background-color: #1e87db;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Style for lap list */
+#laps {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+  .stopwatch {
+    max-width: 90%;
+  }
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: azure;
+}
+
+.stopwatch {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+h2 {
+  color: #750404;
+}
+
+#display {
+  font-size: 3em;
+  margin: 20px 0;
+  background-color: #f1f1f1;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#laps {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+#laps li {
+  margin: 5px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .stopwatch {
+    max-width: 300px;
+  }
+}
